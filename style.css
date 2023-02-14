@@ -1,0 +1,20 @@
+.btn-info{
+    font-size:25px;
+}
+
+.btn-success:hover{background-color: gold;}
+
+canvas{
+    animation-name:nose;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes nose{
+    from{
+        box-shadow: 1px 1px 30px rgb(240, 0, 0);
+    }
+    to{box-shadow: 1px 1px 30px rgb(0, 255, 213);}
+  
+
+}
